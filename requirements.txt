@@ -1,7 +1,8 @@
 pandas
 prophet
 duckdb
-streamlit
+streamlit>=1.25.0
 plotly
 python-dotenv
 requests
+altair==4.2.2
