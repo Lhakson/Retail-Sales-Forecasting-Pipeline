@@ -27,17 +27,3 @@ The pipeline follows a clean "Modular ETL" architecture:
 * **Idempotent Loading:** The pipeline can be run multiple times daily without duplicating data or breaking the schema.
 * **Holiday-Aware AI:** The model automatically adjusts for Black Friday, Christmas, and other major US retail drivers.
 * **Defensive Programming:** Includes logging, environment variable protection (.env), and division-by-zero SQL protection.
-
-## ⚙️ Setup & Installation
-1. Clone the repo: `git clone https://github.com/Lhakson/your-repo-name.git`
-2. Create venv: `python -m venv venv`
-3. Activate venv: `.\venv\Scripts\Activate.ps1`
-4. Install dependencies: `pip install -r requirements.txt`
-5. Add your API Key to a `.env` file: `ALPHA_VANTAGE_KEY=your_key`
-6. Run the pipeline: `python main.py`
-7. Launch Dashboard: `streamlit run app.py`
-
-## 📈 Future Roadmap
-* Add MAPE (Mean Absolute Percentage Error) tracking to monitor model drift.
-* Containerize the application using Docker for cloud deployment.
-* Integrate multi-series forecasting for specific retail categories.
